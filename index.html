@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oleh Bulchak | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+   (function(){emailjs.init("6tPNXWMDZVb0M2xSD");})();
+</script>
+</head>
+<body>
+
+<!-- Sidebar -->
+<aside class="sidebar">
+  <h1>Oleh Bulchak</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</aside>
+
+<!-- Main Content -->
+<main class="main-content">
+
+  <!-- About -->
+  <section id="about" class="page about-page">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="oleh-ya-photo.jpeg" alt="Oleh Bulchak" class="about-photo">
+      <p>
+        Motivated IT student in Programming and Development, with knowledge in coding and software projects looking to obtain hands-on related work experience. Skilled at solving logical errors, working both alone and in teams, and enjoy learning new technologies. Strong problem solving and critical thinking abilities. Quick learner and able to create useful solutions to a variety of projects or tasks.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="page">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h3>HTML</h3>
+        <p>Advanced; built multiple websites and portfolio projects.</p>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <p>Advanced; styled responsive layouts and animations.</p>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <p>Entry level; created interactive quizzes and dynamic pages.</p>
+      </div>
+      <div class="skill">
+        <h3>Python</h3>
+        <p>More than basics; wrote scripts and solved programming problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="page">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>IT Help Desk Ticketing System</h3>
+        <p>Frontend Web Project: HTML, CSS, JS</p> </p> ("itsupport")</p>
+        <a href="https://github.com/bulchak7" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Interactive Quiz Application</h3>
+        <p>Frontend Web Project: HTML, CSS, JS  </p> </p> ("itsupport1")</p>
+        <a href="https://github.com/bulchak7" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Animated Personal Portfolio</h3>
+        <p>Frontend Web Project: HTML, CSS, JS</p>  </p>("animationproject") </p>
+
+        <a href="https://github.com/bulchak7" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="page">
+    <h2>Resume & Education</h2>
+    <h3>Education</h3>
+    <p>Cuyahoga Community College | Highland Hills, Ohio | Anticipated Graduation: Spring 2026</p>
+    <p>Pursuing Associate of Applied Business degree in Information Technology | GPA: 3.6 | Dean’s List: Fall 2024</p>
+    <p>Relevant Coursework: Web Development, Data Structures and Algorithms, Introduction to Programming, Java Programming</p>
+
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>Programming Languages: Java, Python, C#</li>
+      <li>Software Systems: MySQL, Linux, GitHub</li>
+      <li>Virtual Meeting Platforms: Zoom, Webex, Microsoft Teams</li>
+      <li>Visual Design Programs: Visual Studio, Canva</li>
+      <li>Social Media Administration: LinkedIn, Instagram, TikTok, Facebook, X</li>
+      <li>Google Platforms: Docs, Sheets, Slides, Forms</li>
+      <li>Microsoft Office: Word, PowerPoint, basic Excel</li>
+    </ul>
+
+    <h3>Coding Project Experience</h3>
+    <h4>IT Help Desk Ticketing System – Frontend Web Project</h4>
+    <ul>
+      <li>Developed a dynamic web application using HTML, CSS, and JavaScript to allow users to submit, track, update, and delete IT support tickets.</li>
+      <li>Added priority colors, status badges, and filters to make it easy to manage tickets.</li>
+      <li>Used LocalStorage so tickets stay after page reload and made the design mobile-friendly.</li>
+    </ul>
+    <h4>Interactive Quiz Application – Frontend Web Project</h4>
+    <ul>
+      <li>Developed an interactive quiz application using HTML, CSS, and JavaScript, featuring dynamic questions, randomized answers, and real-time feedback.</li>
+      <li>Implemented progress tracking and score calculation with a restart option, managing all logic through JavaScript without page reloads.</li>
+      <li>Designed a clean, responsive user interface focused on usability and clear user interaction.</li>
+    </ul>
+    <h4>Animated Personal Portfolio – Frontend Web Project</h4>
+    <ul>
+      <li>Created a responsive portfolio using HTML, CSS, and JavaScript to showcase projects and bio.</li>
+      <li>Added animated project cards, smooth page transitions, and dark/light mode toggle.</li>
+      <li>Included interactive Next/Back buttons and animated bio for a polished frontend experience.</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="page">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="from_name" placeholder="Your Name" required>
+      <input type="email" name="from_email" placeholder="Your Email" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <input type="text" name="message" placeholder="Your Message" required>
+      <button type="submit">Send</button>
+    </form>
+    <p id="contact-status"></p>
+    <p>Or connect with me: 
+      <a href="https://github.com/bulchak7" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/oleh-bulchak-405911384/?locale=uk_UA" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
