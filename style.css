@@ -197,17 +197,7 @@ h2 {
     position: relative;
     width: 100%;
     height: auto;
-    border-right: none;
-    border-bottom: 1px solid #ddd;
     text-align: center;
-  }
-
-  .sidebar h1 {
-    margin-bottom: 20px;
-  }
-
-  .sidebar nav ul li {
-    margin: 10px 0;
   }
 
   .main-content {
@@ -216,11 +206,7 @@ h2 {
   }
 
   .page {
-    padding: 30px 20px;
-  }
-
-  h2 {
-    font-size: 1.8rem;
+    padding: 20px;
   }
 
   .about-container {
@@ -229,20 +215,8 @@ h2 {
   }
 
   .about-photo {
-    width: 100%;
+    width: 80%;
     max-width: 250px;
-  }
-
-  .about-container p {
-    font-size: 1.1rem;
-  }
-
-  .skills-grid {
-    gap: 20px;
-  }
-
-  .skill {
-    width: 100%;
   }
 
   .projects-grid {
