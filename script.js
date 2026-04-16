@@ -1,4 +1,3 @@
-// Smooth scroll for sidebar links
 document.querySelectorAll('.sidebar nav ul li a').forEach(link => {
     link.addEventListener('click', function(e){
         e.preventDefault();
@@ -7,7 +6,6 @@ document.querySelectorAll('.sidebar nav ul li a').forEach(link => {
     });
 });
 
-// EmailJS contact form
 document.getElementById('contact-form').addEventListener('submit', function(e){
     e.preventDefault();
     emailjs.sendForm('service_dx5ma6j','template_dehs94t',this)
